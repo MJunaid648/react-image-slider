@@ -1,1 +1,16 @@
-# react-image-slider
+# React Image Carousel with Picsum API
+
+## Overview
+
+This is a mobile-responsive React.js application that serves as an image carousel. It fetches images from the [Picsum API](https://picsum.photos/) and displays them in a carousel format.
+
+## Demo
+
+[Live Demo](link-to-live-demo)
+
+## Features
+
+- Fetches images from Picsum API.
+- Mobile responsive design.
+- Simple and easy-to-use image carousel.
+
