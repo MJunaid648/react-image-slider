@@ -1,4 +1,4 @@
-# React Image Carousel with Picsum API
+# React Image Slider with Picsum API
 
 ## Overview
 
