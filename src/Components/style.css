@@ -6,14 +6,15 @@
   width: 600px;
   height: 450px;
   overflow: hidden;
+  color: white;
 }
 @keyframes slideIn {
   from {
-    transform: translateX(-100%);
+    opacity: 0;
   }
 
   to {
-    transform: translateX(0);
+    opacity: 1;
   }
 }
 .current-image {
@@ -22,7 +23,7 @@
   width: 100%;
   height: 100%;
   width: 100%;
-  animation: slideIn 0.3s ease-in-out;
+  animation: slideIn 1s ease-in-out;
 }
 .hide-image {
   display: none;
@@ -58,4 +59,23 @@
 
 .inactive-indicator {
   background-color: rgb(156, 148, 148);
+}
+
+.msg {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .container {
+    width: 450px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90vw;
+    height: auto;
+  }
 }

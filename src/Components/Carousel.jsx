@@ -34,10 +34,10 @@ const Carousel = ({ url, page = 1, limit = 5 }) => {
   }, [url]);
 
   if (loading) {
-    return <div>Loading data! Please wait...</div>;
+    return <div className="msg">Loading data! Please wait...</div>;
   }
   if (errorMsg !== null) {
-    return <div>Error occured! {errorMsg}</div>;
+    return <div className="msg">Error occured! {errorMsg}</div>;
   }
 
   return (
