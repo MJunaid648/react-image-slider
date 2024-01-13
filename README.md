@@ -6,7 +6,7 @@ This is a mobile-responsive React.js application that serves as an image carouse
 
 ## Demo
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://junaid-react-slider.netlify.app/)
 
 ## Features
 
